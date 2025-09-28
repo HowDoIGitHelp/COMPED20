@@ -10,15 +10,13 @@ Analytics is the process of collecting, preparing, and modeling data for the pur
 
 At it its core, analytics is converting data into insights. Insights which come in the form patterns, forecasts, relationships, decisions or trends. Analytics help us condense complex information into a single number (statistics) or present complex information into a beautiful and intuitive chart (visualization).
 
-![Taylorism Factory](https://raw.githubusercontent.com/HowDoIGitHelp/COMPED20/refs/heads/master/assets/factory.png)
-
 # We have been using analytics for a while now
 
 #### Scientific Management
 
 While the term analytics in its current context is a few decades old, our greatest minds have been using analytics as tools for a while now. Back then we didn't call it analytics. During the industrial age where economic efficiency was the trend, Frederick W. Taylor had the idea to use data and math to improve a factory's production. Taylor called the theory *Scientific Management*. Taylor's theory was successful in improving productivity while lessening worker hours. Scientific Management shows how even before we were using computers, we have been using analytics.
 
-
+![Taylorism Factory](https://raw.githubusercontent.com/HowDoIGitHelp/COMPED20/refs/heads/master/assets/factory.png)
 
 #### Tabulating Machine
 
