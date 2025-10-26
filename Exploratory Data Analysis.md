@@ -173,11 +173,11 @@ You can also use visualization to perform exploratory data analysis. Creating vi
 
 A histogram chart is a bar chart that shows the distribution of a quantitative feature. Each bar in a histogram chart represents a bin defined by a specific range (recall bins from converting quantitative features to qualitative). The height of each bar corresponds to the frequency of values that belong on said bin. With a histogram chart you can see which values frequently occur for a specific feature. Taller bars represent higher frequencies while shorter vars represent lower frequencies.
 
-![HoursStudiedFrequencies](C:\Users\rrabe\Projects\lecturenotes\COMPED20\assets\HoursStudiedFrequencies.png)
+![HoursStudiedFrequencies](https://raw.githubusercontent.com/HowDoIGitHelp/COMPED20/refs/heads/master/assets/HoursStudiedFrequencies.png)
 
 > A histogram chart of the feature Hours_Studied from the StudentPerformanceFactors datastet. This histogram shows that the most students study between 20 to 22 hours.
 
-![RentedBikeCountFrequency](C:\Users\rrabe\Projects\lecturenotes\COMPED20\assets\RentedBikeCountFrequency.png)
+![RentedBikeCountFrequency](https://raw.githubusercontent.com/HowDoIGitHelp/COMPED20/refs/heads/master/assets/RentedBikeCountFrequency.png)
 
 
 
@@ -189,7 +189,7 @@ You can describe a group off values based on the characteristics  of the distrib
 
 Skewness describes how asymmetrical the distribution is. A distribution where larger values are more frequent than smaller values is called negatively skewed. On the other hand, a distribution where smaller values are more frequent than larger values is called positively skewed. 
 
-![skew](C:\Users\rrabe\Projects\lecturenotes\COMPED20\assets\skew.png)
+![skew](https://raw.githubusercontent.com/HowDoIGitHelp/COMPED20/refs/heads/master/assets/skew.png)
 
 > *Photo by Danielle J. Navarro, David R. Foxcroft, and Sebastian Jentschke retrieved from https://lsj.readthedocs.io/en/latest/Ch04/Ch04_Descriptives_3/*
 
@@ -197,7 +197,7 @@ Skewness can be calculated as a statistic. A positive skew value means that the 
 
 Kurtosis describes the "tailedness" of a distribution with respect to the normal distribution. A platykurtic distribution has thin tails, meaning the distribution is less concentrated on the mode. A platykurtic distribution also appears flatter than the normal distribution. A leptokurtic distribution has fat tails, which means that the distribution is more concentrated towards the mode. We call a distribution that is neither leptokurtic not platykurtic as mesokurtic.
 
-![kurt](C:\Users\rrabe\Projects\lecturenotes\COMPED20\assets\kurt.png)
+![kurt](https://raw.githubusercontent.com/HowDoIGitHelp/COMPED20/refs/heads/master/assets/kurt.png)
 
 > *Photo by Danielle J. Navarro, David R. Foxcroft, and Sebastian Jentschke retrieved from https://lsj.readthedocs.io/en/latest/Ch04/Ch04_Descriptives_3/*
 
@@ -209,7 +209,7 @@ Kurtosis can also be calculated as a statistic. A very large kurtosis value mean
 
 A box plot shows a visual representation of the descriptive statistics of a feature. It can plot the mean value, the median value, the interquartile range, the maximum value and the minimum value.
 
-![box-whisker-plot](C:\Users\rrabe\Projects\lecturenotes\COMPED20\assets\boxplot.jpg) 
+![box-whisker-plot](https://raw.githubusercontent.com/HowDoIGitHelp/COMPED20/refs/heads/master/assets/boxplot.jpg) 
 
 > *Photo by [Dcbmariano](https://commons.wikimedia.org/wiki/User:Dcbmariano), retrieved from https://en.wikipedia.org/wiki/File:Box_plot_description.jpg*
 
@@ -224,13 +224,13 @@ A box plot shows a visual representation of the descriptive statistics of a feat
 - The **interquartile range (IQR)** shows the dispersion of the upper and lower quartiles of the feature. In the box plot, the IQR is represented by the actual box. The length (width for horizontal box plots, and height for vertical box plots) of the box shows how dispersed the dataset is. If the box represented by the IQR is longer, then it means that the values in the dataset are more dispersed. If the box is shorter, then the values are close together.
 - Box plots can also show **outliers**, values that do not conform to the
 
-![BoxplotRentedBikeCount](C:\Users\rrabe\Projects\lecturenotes\COMPED20\assets\BoxplotRentedBikeCount.png)
+![BoxplotRentedBikeCount](https://raw.githubusercontent.com/HowDoIGitHelp/COMPED20/refs/heads/master/assets/BoxplotRentedBikeCount.png)
 
 > Box plot showing the feature Rented Bike Count from the SeoulBikeSharing dataset.
 
 The box plot can summarize both measures of central tendency and dispersion in a visual way. You can even use box plots to visually compare related groups of data. Using a box plot like this provides insights on which group of data is generally higher or lower by comparing their medians. It can also provide insights on which group of data is more dispersed by comparing their IQR lengths.
 
-![BoxPlotTempVsSeason](C:\Users\rrabe\Projects\lecturenotes\COMPED20\assets\BoxPlotTempVsSeason.png)
+![BoxPlotTempVsSeason](https://raw.githubusercontent.com/HowDoIGitHelp/COMPED20/refs/heads/master/assets/BoxPlotTempVsSeason.png)
 
 > Box plots of the feature Temperature, grouped according to the qualitative feature Season from the SeoulBikeSharing dataset.
 
@@ -242,7 +242,7 @@ During EDA you can also explore insights that show the relationships between fea
 
 To show the relationship between two qualitative variables, you can use a contingency table. A contingency table shows frequencies of samples for each combination of categories. 
 
-![Screenshot 2025-10-26 234639](C:\Users\rrabe\Projects\lecturenotes\COMPED20\assets\Screenshot 2025-10-26 234639.png)
+![Screenshot 2025-10-26 234639](https://raw.githubusercontent.com/HowDoIGitHelp/COMPED20/refs/heads/master/assets/Screenshot 2025-10-26 234639.png)
 
 > Contingency table comparing the features Peer_Influence and Motivation_Level from the StudentPerformanceFactors dataset. The category combination with the highest frequency is medium motivation level and neutral peer influence. While the category combination with the lowest frequency is high motivation level and negative peer influence. 
 
@@ -250,11 +250,11 @@ To show the relationship between two qualitative variables, you can use a contin
 
 To show the relationship between two quantitative features, you can plot them in a scatter plot. One of the features will be plotted in the x-axis and the other feature will be plotted in the y-axis. Each sample in your dataset will be plotted in the scatter plot as a point. The scatter plot will reveal if there is some sort of relationship between these two quantitative features
 
-![HoursStudiedVsExamScore](C:\Users\rrabe\Projects\lecturenotes\COMPED20\assets\HoursStudiedVsExamScore.png)
+![HoursStudiedVsExamScore](https://raw.githubusercontent.com/HowDoIGitHelp/COMPED20/refs/heads/master/assets/HoursStudiedVsExamScore.png)
 
 > Scatter plot of Exam_Score vs Hours_Studied from the StudentPerformanceFactors dataset. There is a relationship between number of hours studied and exam score. The more hours dedicated to studying the higher the student's exam score.
 
-![PreviousScoresVsExamScore](C:\Users\rrabe\Projects\lecturenotes\COMPED20\assets\PreviousScoresVsExamScore.png)
+![PreviousScoresVsExamScore](https://raw.githubusercontent.com/HowDoIGitHelp/COMPED20/refs/heads/master/assets/PreviousScoresVsExamScore.png)
 
 > Scatter plot of Previous_scores and Exam_Score from the StudentPerformanceFactors dataset. There is weak/no relationship between these features. 
 
@@ -262,11 +262,11 @@ To show the relationship between two quantitative features, you can plot them in
 
 When analyzing the relationship between a qualitative feature and a quantitative feature, you can use a scatter plot or a box plot. Both of these plots can visually show if there is any meaningful difference between the distribution of a qualitative feature across different categories.
 
-![ScatterPlotTempVsSeason](C:\Users\rrabe\Projects\lecturenotes\COMPED20\assets\ScatterPlotTempVsSeason.png)
+![ScatterPlotTempVsSeason](https://raw.githubusercontent.com/HowDoIGitHelp/COMPED20/refs/heads/master/assets/ScatterPlotTempVsSeason.png)
 
 > Scatter plot of Temperature (quantitative) vs Seasons (qualitative). Samples labelled Winter tend to have lower temperatures.
 
-![BoxPlotTempVsSeason](C:\Users\rrabe\Projects\lecturenotes\COMPED20\assets\BoxPlotTempVsSeason.png)
+![BoxPlotTempVsSeason](https://raw.githubusercontent.com/HowDoIGitHelp/COMPED20/refs/heads/master/assets/BoxPlotTempVsSeason.png)
 
 >  Box plots of the feature Temperature, grouped according to the qualitative feature Season from the SeoulBikeSharing dataset. Winter tends to have a lower temperatures compared to other seasons.
 
