@@ -74,7 +74,6 @@ def main():
         "transport_type", 
         "origin_station", 
         "destination_station", 
-        "actual_departure_delay_min",
         "actual_arrival_delay_min",
         "weather_condition",
         "temperature_C",
