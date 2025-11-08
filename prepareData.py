@@ -70,7 +70,6 @@ def main():
 
     reducedData = data[[
         "trip_id", 
-        "scheduled_departure",
         "transport_type", 
         "origin_station", 
         "destination_station", 
