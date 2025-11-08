@@ -3,7 +3,7 @@
 ## Instructions
 
 1. Download the dataset.
-2. Load the dataset into Orange3.
+2. Follow the instructions below using Google Sheets or Orange Data Mining.
 
 ## Inspecting the dataset
 
