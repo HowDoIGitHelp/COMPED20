@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>Midterms2025</title>
+</head>
+<body><h1 id='midterms-2025'>Midterms 2025</h1>
+<p>Please read all of the instructions before starting your work. </p>
+<p>To begin, download the dataset &quot;public_transportation_delays.csv&quot;. You con work on the dataset using Google Sheets, Orange or both. When specifying filenames, column names, values, etc. make sure you are using the correct spelling.</p>
+<h2 id='inspecting-the-dataset'>Inspecting the dataset</h2>
+<ol start='' >
+<li>Take note of the number of columns and rows.</li>
+<li>Take note of the type of data for each column (qualitative or quantitative).</li>
+
+</ol>
+<h2 id='data-cleaning'>Data Cleaning</h2>
+<ol start='' >
+<li>Some of the features in the dataset have missing values. Check which columns contain missing elements. Take note of the number of missing values for each column.</li>
+<li>Impute the missing values with the mean (quantitative) and mode (qualitative) of their corresponding column.</li>
+
+</ol>
+<h2 id='data-processing'>Data Processing</h2>
+<ol start='' >
+<li><p>Create the following column:</p>
+<ul>
+<li><code>delayed</code> - quantitative, possible values: &quot;Delayed&quot;, &quot;Not Delayed&quot;. If the value found on the column, <code>actual_arrival_delay_min</code> is 5 minutes or more, then the <code>delayed</code> column should have the value &quot;Delayed&quot;, otherwise it should have the value &quot;Not Delayed&quot;.</li>
+
+</ul>
+</li>
+<li><p>Export the extended dataset as a .csv file. The file name of the exported file should be &quot;extended_public_transportation.csv&quot;</p>
+</li>
+
+</ol>
+<h2 id='changing-granularity'>Changing granularity</h2>
+<ol start='' >
+<li><p>Create a new dataset with a larger granularity. In this dataset, rows from &quot;extended_public_transportation.csv&quot; with the same <code>origin_station</code> are summarized into one row.</p>
+</li>
+<li><p>The new dataset will have the following columns:</p>
+<ul>
+<li><code>origin_station</code> - qualitative, the corresponding origin station of the row.</li>
+<li><code>weather_condition</code> - qualitative, the weather condition of that specific station. (use mode to summarize)</li>
+<li><code>mean_temperature_C</code> - quantitative, the mean temperature of all rows of the corresponding station. Keep the unit as Celcius.</li>
+<li><code>mean_humidity_percent</code> - quantitative, the mean humidity percentage of all rows of the corresponding station.</li>
+<li><code>mean_wind_speed_kmh</code> - quantitative, the mean wind speed of all rows of the corresponding station. Keep the unit as kmh.</li>
+<li><code>mean_precipitation_mm</code> - quantitative, the mean precipitation of all rows of the corresponding station. Keep the unit as mm.</li>
+
+</ul>
+</li>
+<li><p>Export this new dataset as a .csv file. The file name of the exported file should be &quot;station_weather.csv&quot;</p>
+</li>
+
+</ol>
+<h2 id='declarative-statistics'>Declarative statistics</h2>
+<ol start='' >
+<li>From &quot;extended_public_transportation.csv&quot;, find the mean, median, and standard_deviation of the following quantitative columns: <code>temperature_C</code>, <code>humidity_percent</code>, <code>wind_speed_kmh</code>, <code>precipitation_mm</code>.</li>
+
+</ol>
+<h2 id='insights-from-visualization'>Insights from visualization</h2>
+<ol start='' >
+<li>Create a box plot comparing the <code>actual_arrival_delay_min</code> of all <code>weather_condition</code>s, take note which weather conditions have the highest medians for <code>actual_arrival_delay_min</code>.</li>
+<li>Create a box plot comparing the <code>actual_arrival_delay_min</code> of all <code>destination_station</code>s, take note which destination stations have the highest medians for <code>actual_arrival_delay_min</code>.</li>
+<li>Create a scatter plot comparing the features <code>precipitation_mm</code> and <code>actual_arrival_delay_min</code>. </li>
+<li>Export the first box plot as an image and save the image as &quot;box_plot_delays_vs_weather.png&quot;.</li>
+<li>Export the second box plot as an image and save the image as &quot;box_plot_delays_vs_station.png&quot;.</li>
+<li>Export the scatter plot as an image and save the image a s &quot;scatter_plot_precipitation_vs_delay.png&quot;</li>
+
+</ol>
+<h2 id='grading-rubric'>Grading Rubric</h2>
+<ul>
+<li>50% of your grade comes from your score in Part 2.</li>
+<li>15% of your grade comes from your submission <code>extended_public_transportation.csv</code></li>
+<li>20% of your grade comes from your submission <code>station_weather.csv</code></li>
+<li>5% of your grade comes from your submission <code>box_plot_delays_vs_weather.csv</code></li>
+<li>5% of your grade comes from your submission <code>box_plot_delays_vs_station.csv</code></li>
+<li>5% of your grade comes from your submission <code>scatter_plot_precipitation_vs_delay.csv</code></li>
+
+</ul>
+</body>
+</html>

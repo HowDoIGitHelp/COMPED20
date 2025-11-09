@@ -22,9 +22,9 @@ To begin, download the dataset "public_transportation_delays.csv". You con work 
 
 ## Changing granularity
 
-1. Create a new dataset with a larger granularity. In this dataset, rows from "extended_public_transportation.csv" with the same `origin_station` are summarized into one row.
+1. Create a new dataset with a larger granularity. In this dataset, rows from "extended_public_transportation.csv" with the same `destination_station` are summarized into one row.
 2. The new dataset will have the following columns:
-    - `origin_station` - qualitative, the corresponding origin station of the row.
+    - `destination_station` - qualitative, the corresponding destination station of the row.
     - `weather_condition` - qualitative, the weather condition of that specific station. (use mode to summarize)
     - `mean_temperature_C` - quantitative, the mean temperature of all rows of the corresponding station. Keep the unit as Celcius.
     - `mean_humidity_percent` - quantitative, the mean humidity percentage of all rows of the corresponding station.
@@ -50,6 +50,6 @@ To begin, download the dataset "public_transportation_delays.csv". You con work 
 - 50% of your grade comes from your score in Part 2.
 - 15% of your grade comes from your submission `extended_public_transportation.csv`
 - 20% of your grade comes from your submission `station_weather.csv`
-- 5% of your grade comes from your submission `box_plot_delays_vs_weather.csv`
-- 5% of your grade comes from your submission `box_plot_delays_vs_station.csv`
-- 5% of your grade comes from your submission `scatter_plot_precipitation_vs_delay.csv`
+- 5% of your grade comes from your submission `box_plot_delays_vs_weather.png`
+- 5% of your grade comes from your submission `box_plot_delays_vs_station.png`
+- 5% of your grade comes from your submission `scatter_plot_precipitation_vs_delay.png`
