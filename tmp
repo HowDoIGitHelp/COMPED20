@@ -1,0 +1,36 @@
+temperature_C
+
+Mean: {1:NUMERICAL:=18.08:0.02}
+Median: {1:NUMERICAL:=19.75:0.02}
+Standard Deviation: {1:NUMERICAL:=9.19:0.02}
+
+humidity_percent
+
+Mean: {1:NUMERICAL:=52.22:0.02}
+Median: {1:NUMERICAL:=52.36:0.02}
+Standard Deviation: {1:NUMERICAL:=5.28:0.02}
+
+wind_speed_kmh
+
+Mean: {1:NUMERICAL:=19.91:0.02}
+Median: {1:NUMERICAL:=16.12:0.02}
+Standard Deviation: {1:NUMERICAL:=12.36:0.02}
+
+precipitation_mm
+
+Mean: {1:NUMERICAL:=8.16:0.02}
+Median: {1:NUMERICAL:=2.50:0.02}
+Standard Deviation: {2:NUMERICAL:=8.15:0.02}
+
+
+ transport_type: {1:MULTICHOICE:=qualitative~quantitative}
+ origin_station: {1:MULTICHOICE:=qualitative~quantitative}
+ destination_station: {1:MULTICHOICE:=qualitative~quantitative}
+ actual_arrival_delay_min: {1:MULTICHOICE:=qualitative~quantitative}
+ weather_condition: {1:MULTICHOICE:=qualitative~quantitative}
+ temperature_C: {1:MULTICHOICE:qualitative~=quantitative}
+ humidity_percent: {1:MULTICHOICE:qualitative~=quantitative}
+ wind_speed_kmh: {1:MULTICHOICE:qualitative~=quantitative}
+ precipitation_mm: {1:MULTICHOICE:qualitative~=quantitative}
+ event_type: {1:MULTICHOICE:=qualitative~quantitative}
+ peak_hour: {1:MULTICHOICE:=qualitative~quantitative}

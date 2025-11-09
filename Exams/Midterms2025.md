@@ -1,9 +1,8 @@
 # Midterms 2025
 
-## Instructions
+Please read all of the instructions before starting your work. 
 
-1. Download the dataset.
-2. Follow the instructions below using Google Sheets or Orange Data Mining.
+To begin, download the dataset "public_transportation_delays.csv". You con work on the dataset using Google Sheets, Orange or both. When specifying filenames, column names, values, etc. make sure you are using the correct spelling.
 
 ## Inspecting the dataset
 
@@ -31,7 +30,7 @@
     - `mean_humidity_percent` - quantitative, the mean humidity percentage of all rows of the corresponding station.
     - `mean_wind_speed_kmh` - quantitative, the mean wind speed of all rows of the corresponding station. Keep the unit as kmh.
     - `mean_precipitation_mm` - quantitative, the mean precipitation of all rows of the corresponding station. Keep the unit as mm.
-3. Export this new dataset as a .csv file. The file name of the exported file should be "daily_public_transportation_delays.csv"
+3. Export this new dataset as a .csv file. The file name of the exported file should be "station_weather.csv"
 
 ## Declarative statistics
 
@@ -39,9 +38,18 @@
 
 ## Insights from visualization
 
-1. Create a box plot comparing the `actual_arrival_delay_min` of all `weather_conditions`, take note which weather conditions have the highest medians for `actual_arrival_delay_min`.
-2. Create a scatter plot comparing the features `precipitation_mm` and `actual_arrival_delay_min`. 
-3. Export the box plot as an image and save the image as "box_plot_delays_vs_weather.png".
-4. Export the scatter plot as an image and save the image a s "scatter_plot_precipitation_vs_delay.png"
+1. Create a box plot comparing the `actual_arrival_delay_min` of all `weather_condition`s, take note which weather conditions have the highest medians for `actual_arrival_delay_min`.
+2. Create a box plot comparing the `actual_arrival_delay_min` of all `destination_station`s, take note which destination stations have the highest medians for `actual_arrival_delay_min`.
+3. Create a scatter plot comparing the features `precipitation_mm` and `actual_arrival_delay_min`. 
+4. Export the first box plot as an image and save the image as "box_plot_delays_vs_weather.png".
+4. Export the second box plot as an image and save the image as "box_plot_delays_vs_station.png".
+5. Export the scatter plot as an image and save the image a s "scatter_plot_precipitation_vs_delay.png"
 
 ## Grading Rubric
+
+- 50% of your grade comes from your score in Part 2.
+- 15% of your grade comes from your submission `extended_public_transportation.csv`
+- 20% of your grade comes from your submission `station_weather.csv`
+- 5% of your grade comes from your submission `box_plot_delays_vs_weather.csv`
+- 5% of your grade comes from your submission `box_plot_delays_vs_station.csv`
+- 5% of your grade comes from your submission `scatter_plot_precipitation_vs_delay.csv`
