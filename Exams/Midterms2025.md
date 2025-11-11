@@ -17,7 +17,7 @@ To begin, download the dataset "public_transportation_delays.csv". You con work 
 ## Data Processing
 
 1. Create the following column:
-    - `delayed` - quantitative, possible values: "Delayed", "Not Delayed". If the value found on the column, `actual_arrival_delay_min` is 5 minutes or more, then the `delayed` column should have the value "Delayed", otherwise it should have the value "Not Delayed".
+    - `delayed` - qualitative, possible values: "Delayed", "Not Delayed". If the value found on the column, `actual_arrival_delay_min` is 5 minutes or more, then the `delayed` column should have the value "Delayed", otherwise it should have the value "Not Delayed".
 2. Export the extended dataset as a .csv file. The file name of the exported file should be "extended_public_transportation.csv"
 
 ## Changing granularity
