@@ -89,19 +89,20 @@ Once the model is finished training, you can assess the models performance using
   \text{accuracy} = \frac{\text{number of correct predictions}}{\text {number of incorrect predictions} + \text{number of correct predictions}}
   $$
 
-- *Precision* - (100% or 1.00 is a perfect score while 0% or 0.0 is zero is the lowest score), a metric calculated based on **true positives** and **false positives**. For example, if your classification model has a target column/variable called `Delayed`, a positive classification will refer to "delayed", while a negative classification will refer to " not delayed". True positives refer to the number of samples in the testing portion the model predicted as positive and at the same time actually positive. On the other hand, true negative refers to the number of samples in the testing portion where the model predicted as positive but was actually negative. Precision is calcualted as:
+- *Precision* - (100% or 1.00 is a perfect score while 0% or 0.0 is zero is the lowest score), a metric calculated based on **true positives** and **false positives**. For example, if your classification model has a target column/variable called `Delayed`, a positive classification will refer to "delayed", while a negative classification will refer to " not delayed". True positives refer to the number of samples in the testing portion the model predicted as positive and at the same time actually positive. On the other hand, true negative refers to the number of samples in the testing portion where the model predicted as positive but was actually negative. Precision is calculated as:
   $$
   \text{precision} = \frac{\text{true positives}}{\text{true positives} + \text{false positives}}
   $$
 
-- *Recall* - (100% or 1.00 is a perfect score while 0% or 0.0 is zero is the lowest score), a metric calculted based on true positives and **false negatives**, false negatives refer to the number of samples predicted as negative but was actually positive. The formula for this metric is:
+- *Recall* - (100% or 1.00 is a perfect score while 0% or 0.0 is zero is the lowest score), a metric calculated based on true positives and false negatives, false negatives refer to the number of samples predicted as negative but was actually positive. The formula for this metric is:
+  
   $$
   \text{recall} = \frac{\text{true positives}}{\text{true positives} + \text{false negatives}}
   $$
 
 ![precision and recall](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/PrecisionrecallDogExample.svg/800px-PrecisionrecallDogExample.svg.png)
 
-- *F1-score* an advanced performance metric that combine both precision and recall. It is calculated as:
+- *F1-score* - an advanced performance metric that combine both precision and recall. It is calculated as:
   $$
   F_1 = 2 \times\frac{\text{precison} \times \text{recall}}{\text{precision} + \text{recall}}
   $$
@@ -125,6 +126,6 @@ $$
   \text{MSE} = \frac{\sum {(\text{prediction} - \text{actual})^2}}{\text{number of predictions}}
   $$
 
-- $R^2$ - ($R^2$ = 100% or 1 is a perfect predictor, the closer to zero the worse the predictor is). This metric is also called the coefficient of determination. This is a statistical measurement that refers the proportion of variance from the target that is explainable by the model. For example if your model has a performance of $R^2 = 54 \%$, it means that 54% of the variance is explainable/predictable by the model.
+- $R^2$ - ($R^2$ = 100% or 1 is a perfect predictor, the closer to zero the worse the predictor is). This metric is also called the **coefficient of determination**. This is a statistical measurement that refers the proportion of variance from the target that is explainable by the model. For example if your model has a performance of $R^2 = 54 \%$, it means that 54% of the variance is explainable/predictable by the model.
 
 Once you complete the model testing step, you can choose to accept the model based on its performance, or you can go back to the previous steps to tweak the training or model choice in order to improve the model's performance. You can choose to include more features, increase the number of samples in the training portion, or can change hyperparameter values of the model or change the model itself.
