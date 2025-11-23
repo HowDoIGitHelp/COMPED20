@@ -12,7 +12,7 @@ Here are the requirements for the proposals:
 3. Number of samples in the dataset
 4. Number of features in the dataset
 5. List of features, with descriptions for each feature
-6. Insights you are interested in finding from the dataset
+6. Insights you are interested in finding from the dataset (descriptive or predictive insights)
 
 You will need to submit **at least three** proposals.
 
@@ -20,7 +20,7 @@ Here's an example proposal:
 
 # Seoul Bike Sharing Demand Dataset
 
-**Souurce**: UCI Machine Learning Repository, https://archive.ics.uci.edu/dataset/560/seoul+bike+sharing+demand
+**Source**: UCI Machine Learning Repository, https://archive.ics.uci.edu/dataset/560/seoul+bike+sharing+demand
 
 **Description**: This is a dataset collected from a Seoul bike sharing service on Seoul Korea.
 Each row in the dataset represents an hour rentals for the service.
@@ -49,3 +49,12 @@ The data is collected from a combination of bike sharing services and weather se
 - Which day of the week experience the highest demand of bike sharing rentals?
 - Do bike rentals increase on colder weather?
 - Do bike rentals increase on holidays?
+
+> When looking for datasets, you can use the following repositories discussed in Data Acquisition. Feel free to also use data outside it. Just make you sure you provide the right source.
+>
+> - [kaggle](https://www.kaggle.com/datasets) - data science community. It contains datasets shared by users across various domains
+> - [UCI machine learning repository](https://archive.ics.uci.edu/datasets) - a repository of datasets, mostly used for creating prediction and classification models.
+> - [open data philippines](https://data.gov.ph/index/public/dataset) - a curated collection of publicly available data from the Philippine government. 
+> - [data.gov](https://catalog.data.gov/dataset/) - collection of public datasets maintained by the US government
+> - [NCEI](https://www.ncei.noaa.gov/resources/weather-climate-links#ghcn) - a collection of US weather data maintained by the US government 
+> - [fivethirtyeight](https://data.fivethirtyeight.com/) - data used by ABC News' 538 website. Contains survey data in the domain of US Politics and more
