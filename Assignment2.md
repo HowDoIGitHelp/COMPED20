@@ -12,7 +12,7 @@ Here are the requirements for the proposals:
 3. Number of samples in the dataset
 4. Number of features in the dataset
 5. List of features, with descriptions for each feature
-6. Insights you are interested in finding from the dataset (descriptive or predictive insights)
+6. Insights you are interested in finding from the dataset (descriptive insights or predictive insights)
 
 You will need to submit **at least three** proposals.
 

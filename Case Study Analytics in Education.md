@@ -75,43 +75,43 @@ A few new features were added to the dataset. These features are derived from th
 
 ##### Distribution of Mean Grades
 
-![Mean Grades](https://raw.githubusercontent.com/HowDoIGitHelp/COMPED20/refs/heads/master/assets/Charts/CaseStudy1Viz1.svg)
+![Mean Grades](https://raw.githubusercontent.com/HowDoIGitHelp/COMPED20/refs/heads/master/assets/Charts/CaseStudy1Viz1.png)
 
 The chart above shows the distribution of mean grades. As seen here, mean grades grouped into three distinct groups, also known as a trimodal distribution. There is a large distribution of students that have a mean grade around 13, while there is also a significant number of students that end up with a mean grade of 0. But there is also a small but distinct group of students that have a mean grade of around 6.
 
 ##### Comparing Mean Grades and Student Gender
 
-![Mean Grades vs Gender](https://raw.githubusercontent.com/HowDoIGitHelp/COMPED20/refs/heads/master/assets/Charts/CaseStudy1Viz2.svg)
+![Mean Grades vs Gender](https://raw.githubusercontent.com/HowDoIGitHelp/COMPED20/refs/heads/master/assets/Charts/CaseStudy1Viz2.png)
 
 When comparing the grades of male students and female students, we can see that there is a noticeable difference between their descriptive statistics. Female students have a higher mean and median grade (11.47 and 12.5 respectively) while male students have a mean and median grade of 9.74 and 11.8. It is also interesting to see that while there are more female than male students, the the grades of male students are more dispersed with a stdev of 5.056 compared to the female students grades which has a stdev of 3.89.
 
 ##### Comparing Previous Qualification (grade) and Target (Academic Outcome)
 
-![PQ Grade vs Target](https://raw.githubusercontent.com/HowDoIGitHelp/COMPED20/refs/heads/master/assets/Charts/CaseStudy1Viz3.svg)
+![PQ Grade vs Target](https://raw.githubusercontent.com/HowDoIGitHelp/COMPED20/refs/heads/master/assets/Charts/CaseStudy1Viz3.png)
 
 The previous qualification (grade), is the feature that describes the students grade from their previously attended school. It was checked whether theres a difference between the previous grades of students who end up graduating and students who end up dropping out. While theres some difference, the difference is very small. They have the same medians (133.1) and their means differ by about 0.8. This shows that the previous qualification grade of a student is not a strong indicator of a students academic outcome (whether a student graduates or drop out).
 
 ##### Comparing Mean Grades and Target (Academic Outcome)
 
-![Mean Grades vs Target](https://raw.githubusercontent.com/HowDoIGitHelp/COMPED20/refs/heads/master/assets/Charts/CaseStudy1Viz5.svg)
+![Mean Grades vs Target](https://raw.githubusercontent.com/HowDoIGitHelp/COMPED20/refs/heads/master/assets/Charts/CaseStudy1Viz5.png)
 
 When comparing the mean grades of students who graduated and students who dropped out. We can see that students who end up dropping out tend to have lower grades for their first and second semester. This shows that the early grades of a student can be used to predict students that might drop out. This information can be used by the institution to identify early which students need academic intervention.
 
 ##### Comparing Total Unapproved Units and Target (Academic Outcome)
 
-##### ![Total Unapproved Units vs Target](https://raw.githubusercontent.com/HowDoIGitHelp/COMPED20/refs/heads/master/assets/Charts/CaseStudy1Viz4.svg)
+##### ![Total Unapproved Units vs Target](https://raw.githubusercontent.com/HowDoIGitHelp/COMPED20/refs/heads/master/assets/Charts/CaseStudy1Viz4.png)
 
 The Total Unapproved Units can also be a good indicator of a students academic outcome. Students show tend to have a lot of dropped subjects in first and 2nd semesters, are at risk of dropping out. Just like the Early grades, this feature can also be used to identify students that need academic intervention.
 
 ##### Comparing Previous Qualifications and Mean Grade
 
-![Total Unapproved Units vs Target](https://raw.githubusercontent.com/HowDoIGitHelp/COMPED20/refs/heads/master/assets/Charts/CaseStudy1Viz6.svg)
+![Total Unapproved Units vs Target](https://raw.githubusercontent.com/HowDoIGitHelp/COMPED20/refs/heads/master/assets/Charts/CaseStudy1Viz6.png)
 
 The scatter plot above shows compares the previous qualification grade (x-axis) and mean grade (y-axis). The scatter plot shows three distinct groups of students similar to the mean grade distribution chart. This chart also shows that there is no direct relationship between the previous qualification grade and the mean grade. This shows that the student's previous qualifications are not reliable indicators of a students academic performance (at least for the 1st and 2nd semesters).
 
 ##### Comparing Previous Qualifications and Admission Grade
 
-![PQ grade vs Admission grade](https://raw.githubusercontent.com/HowDoIGitHelp/COMPED20/refs/heads/master/assets/Charts/CaseStudy1Viz7.svg)
+![PQ grade vs Admission grade](https://raw.githubusercontent.com/HowDoIGitHelp/COMPED20/refs/heads/master/assets/Charts/CaseStudy1Viz7.png)
 
 When comparing previous qualification grade (x-axis) and admission grade (y-axis), it shows that there is a direct relationship between the two feature. The higher the previous qualification grade, the higher the admission grade tends to be. This suggests that a students previous qualification grade is used to calculate the admission grade. 
 
