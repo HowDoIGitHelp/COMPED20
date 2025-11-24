@@ -32,18 +32,18 @@ The data is collected from a combination of bike sharing services and weather se
 
 **Features**:
 - Date: The corresponding date of the sample
-- Rented Bike Count: The number of bike rentals for this hour.
-- Hour: The hour of day (0 - 23) of the sample
-- Temperature: The temperature measured for the hour
-- Humidity: The humidity measured for the hour
-- Wind speed: The wind speed measured for the hour
-- Visibility: The visibility measured for the hour
-- Dew point temperature: The dew point temp measured for the hour
-- Solar Radiation: The solar radiation measured for the hour
-- Rainfall: The rainfall measured for the hour
-- Snowfall: The snowfall measured for the hour
-- Season: The current season for the hour
-- Functioning Day: whether or not the service was function during this day. (1 for a functioning day, 0 for a non-functioning day)
+- Rented Bike Count: (quantitative) The number of bike rentals for this hour.
+- Hour: (quantitative) The hour of day (0 - 23) of the sample
+- Temperature: (quantitative) The temperature measured for the hour
+- Humidity: (quantitative) The humidity measured for the hour
+- Wind speed: (quantitative) The wind speed measured for the hour
+- Visibility: (quantitative) The visibility measured for the hour
+- Dew point temperature: (quantitative) The dew point temp measured for the hour
+- Solar Radiation: (quantitative) The solar radiation measured for the hour
+- Rainfall: (quantitative) The rainfall measured for the hour
+- Snowfall: (quantitative) The snowfall measured for the hour
+- Season: (qualitative) The current season for the hour
+- Functioning Day: (qualitative) whether or not the service was function during this day. (1 for a functioning day, 0 for a non-functioning day)
 
 **Insights**:
 - Which day of the week experience the highest demand of bike sharing rentals?
